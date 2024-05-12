@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logg inn</title>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="logginn.js"></script>
+</head>
+<body>
+
+<!-- Ikke spurt etter i eksamensoppgaven, kun for å teste serverkoden for oppgave 7 -->
+
+<h1>Logg inn</h1>
+
+<table>
+    <tr>
+        <td>Navn</td>
+        <td><input type="text" id="navn" /></td>
+    </tr>
+    <tr>
+        <td>Passord</td>
+        <td><input type="password" id="passord" /></td>
+    </tr>
+    <tr>
+        <td><button onclick="logginn()">Logg inn</button></td>
+        <td></td>
+    </tr>
+</table>
+
+<div id="melding" style="color: red"></div>
+
+</body>
+</html>
